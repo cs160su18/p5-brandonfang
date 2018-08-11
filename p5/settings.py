@@ -25,13 +25,14 @@ SECRET_KEY = '%#yv*5d73dv^#nt91vwbaf_&8(vshv9oj)1af9f2fb!6j=g3-#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = ['p5-brandonfang-brandonfang847771.codeanyapp.com']
 
 
 # Application definition
 
 INSTALLED_APPS = [
     'life',
+#     'life.apps.LifeConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
